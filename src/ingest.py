@@ -10,40 +10,76 @@ RAW_DIR = Path("data/raw")
 CSV_PATH = Path("data/documents.csv")
 DB_PATH = "data/chroma"
 
-# A line like "3. What are not inventions" starts a new section
-SECTION_RE = re.compile(r"^(\d+[A-Z]{0,2})\.\s+\S")
+# A line like "3. What are not inventions" or "92A. Compulsory licence"
+SECTION_RE = re.compile(r"^(?:\d{1,2}\[)*(\d{1,3})([A-Z]{0,2})\.\s+\S")
 # Footnote lines like "1. Subs. by Act 33 of 2021..." are NOT sections
 FOOTNOTE_RE = re.compile(
-    r"^\d+\.?\s*(Subs\.|Ins\.|Omitted|Rep\.|Added|The words|Clause|Sub-section|Sec\.)"
+    r"^\d+\.?\s*(Subs\.|Substituted|Ins\.|Inserted|Omitted|Rep\.|Added|"
+    r"The words|Clause|Sub-clause|Sub-section|Sec\.)"
 )
 INDIACODE_RE = re.compile(r"IndiaCode\s*\d*")
 
-MIN_CHARS = 60      # ignore tiny pieces
-CHUNK_WORDS = 120   # small enough for the embedding model to read fully
-OVERLAP_WORDS = 20  # repeat a few words so ideas aren't cut in half
+MIN_CHARS = 60
+CHUNK_WORDS = 120
+OVERLAP_WORDS = 20
 
 
 def read_pdf(path):
-    """Return a list of (page_number, text)."""
     reader = PdfReader(str(path))
     return [(i, page.extract_text() or "") for i, page in enumerate(reader.pages, start=1)]
 
 
+def longest_increasing(keys):
+    """Return indices of the longest strictly increasing chain."""
+    n = len(keys)
+    if n == 0:
+        return []
+    length = [1] * n
+    prev = [-1] * n
+    for i in range(n):
+        for j in range(i):
+            if keys[j] < keys[i] and length[j] + 1 > length[i]:
+                length[i] = length[j] + 1
+                prev[i] = j
+    end = max(range(n), key=lambda k: length[k])
+    chain = []
+    while end != -1:
+        chain.append(end)
+        end = prev[end]
+    return chain[::-1]
+
+
 def split_into_sections(pages):
-    """Cut the text wherever a new numbered section begins."""
+    # 1. flatten into cleaned lines
+    lines = []
+    for page_no, text in pages:
+        for raw in text.split("\n"):
+            line = INDIACODE_RE.sub("", raw).strip()
+            if line and not FOOTNOTE_RE.match(line):
+                lines.append((page_no, line))
+
+    # 2. find every line that LOOKS like a section heading
+    candidates = []  # (line_index, number, suffix)
+    for i, (page_no, line) in enumerate(lines):
+        m = SECTION_RE.match(line)
+        if m:
+            lookahead = " ".join(l for _, l in lines[i:i + 3])[:300]
+            if "—" in lookahead:
+                candidates.append((i, int(m.group(1)), m.group(2)))
+
+    # 3. keep only the longest chain whose numbers keep increasing
+    keys = [(num, suffix) for _, num, suffix in candidates]
+    chain = longest_increasing(keys)
+    starts = {candidates[k][0]: f"{candidates[k][1]}{candidates[k][2]}" for k in chain}
+
+    # 4. cut the text at those headings
     sections = []
     current = {"section": "Preamble", "page": 1, "lines": []}
-
-    for page_no, text in pages:
-        for line in text.split("\n"):
-            line = INDIACODE_RE.sub("", line).strip()
-            if not line or FOOTNOTE_RE.match(line):
-                continue
-            match = SECTION_RE.match(line)
-            if match:
-                sections.append(current)
-                current = {"section": match.group(1), "page": page_no, "lines": []}
-            current["lines"].append(line)
+    for i, (page_no, line) in enumerate(lines):
+        if i in starts:
+            sections.append(current)
+            current = {"section": starts[i], "page": page_no, "lines": []}
+        current["lines"].append(line)
     sections.append(current)
 
     result = []
@@ -76,7 +112,7 @@ def main():
 
     client = chromadb.PersistentClient(path=DB_PATH)
     try:
-        client.delete_collection("ip_sakti")   # start fresh each run
+        client.delete_collection("ip_sakti")
     except Exception:
         pass
     collection = client.create_collection("ip_sakti", metadata={"hnsw:space": "cosine"})
@@ -99,8 +135,7 @@ def main():
         texts, metas, ids = [], [], []
         n = 0
         for s in sections:
-            # short heading, e.g. "What are not inventions."
-            heading = re.sub(r"^\d+[A-Z]{0,2}\.\s*", "", s["text"].split("—")[0])[:100]
+            heading = re.sub(r"^(?:\d{1,2}\[)*\d+[A-Z]{0,2}\.\s*", "", s["text"].split("—")[0])[:100]
             prefix = f"{doc['title']}, Section {s['section']} ({heading}). "
             for piece in make_pieces(s["text"]):
                 n += 1

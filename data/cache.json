@@ -1,0 +1,398 @@
+{
+  "India|is traditional knowledge patentable?": {
+    "sources": [
+      {
+        "n": 1,
+        "title": "The Patents Act 1970",
+        "section": "3",
+        "page": 11,
+        "excerpt": "The Patents Act 1970, Section 3 (What are not inventions .). game; (n) a presentation of information; (o) topography of integrated circuits; (p) an invention which, in effect, is traditional knowledge or which is an aggregation or duplication of known properties of traditionally known component or components.]"
+      },
+      {
+        "n": 2,
+        "title": "The Biological Diversity Act 2002",
+        "section": "4",
+        "page": 6,
+        "excerpt": "The Biological Diversity Act 2002, Section 4 (Results of research not to be transferred to certain persons without  approval of National Biodivers). 3[4. Results of research not to be transferred to certain persons without approval of National Biodiversity Authority.— No person or entity shall share or transfer any result of the research on any biological resource occurring in, or obtained or accessed from, India or traditional knowledge associated thereto, for monetary consideration or otherwise, to a person or body corporate referred to in sub -section (2) of section 3, without the prior wri"
+      },
+      {
+        "n": 3,
+        "title": "The Patents Act 1970",
+        "section": "3",
+        "page": 11,
+        "excerpt": "The Patents Act 1970, Section 3 (What are not inventions .). 3*** to render them free of disease or to increase their economic value or that of their products. 2[(j) plants and animals in whole or any part thereof other than micro -organisms but including seeds, varieties and species and essentially biological processes for production or propagation of plants and animals; (k) a mathematical or business method or a computer programme per se or algorithms; (l) a literary, dramatic, musical or artistic work or any other aesthetic creation whatsoever including cinematographic works and television "
+      },
+      {
+        "n": 4,
+        "title": "The Patents Act 1970",
+        "section": "25",
+        "page": 22,
+        "excerpt": "The Patents Act 1970, Section 25 (Opposition to the patent.). inventive step, having regard to the matter published as mentioned in clause (b) or having regard to what was used in India before the priority date of the claim; (f) that the subject of any claim of the complete specification is not an invention within the meaning of this Act, or is not patentable under this Act; (g) that the complete specification does not sufficiently and clearly describe the invention or the method by which it is to be performed; (h) that the patentee has failed to disclose to the Controller the information requ"
+      },
+      {
+        "n": 5,
+        "title": "The Patents Act 1970",
+        "section": "25",
+        "page": 22,
+        "excerpt": "The Patents Act 1970, Section 25 (Opposition to the patent.). for protection for the invention made in a convention country by the applicant or a person from whom he derives title; 1. Chapter IVA omitted by Act 15 of 2005, s. 21 (w.e.f. 1-1-2005). 23 (j) that the complete specification does not disclose or wrongly mentions the source or geographical origin of biological material used for the invention; (k) that the invention so far as claimed in any claim of the complete specification is anticipated having regard to the knowledge, oral or otherwise, available within any local or indigenous com"
+      },
+      {
+        "n": 6,
+        "title": "The Patents Act 1970",
+        "section": "64",
+        "page": 36,
+        "excerpt": "The Patents Act 1970, Section 64 (Revocation of Power patents.). far as claimed in any claim of the complete specification, is not useful; 6. The proviso omitted by Act 38 of 2002, s. 31 (w.e.f. 20-5-2003). 37 (h) that the complete specification does not sufficiently and fairly describe the invention and the method by which it is to be performed, that is to say, that the description of the method or the instructions for the working of the invention as contained in the complete specification are not by themselves sufficient to enable a person in India possessing average skill in, and average kn"
+      },
+      {
+        "n": 7,
+        "title": "The Patents Act 1970",
+        "section": "64",
+        "page": 36,
+        "excerpt": "The Patents Act 1970, Section 64 (Revocation of Power patents.). relates, to work the invention, or that it does not disclose the best method of performing it which was known to the applicant for the patent and for which he was entitled to claim, protection; (i) that the scope of any claim of the complete specification is not sufficiently and clearly defined or that any claim of the complete specification is not fairly based on the matter disclosed in the specification; (j) that the patent was obtained on a false suggestion or representation; (k) that the subject of any claim of the complete s"
+      },
+      {
+        "n": 8,
+        "title": "The Patents Act 1970",
+        "section": "83",
+        "page": 43,
+        "excerpt": "The Patents Act 1970, Section 83 (General principles applicable to working of patented inventions .). rights contribute to the promotion of technological innovation and to the transfer and dissemination of technology, to the mutual advantage of producers and users of technological knowledge and in a manner conducive to social and economic welfare, and to a balance of rights and obligations; (d) that patents granted do not impede protection of public health and nutrition and should act as instrument to promote public interest specially in sectors of vital importance for socio -economic and tech"
+      }
+    ],
+    "confidence": "High",
+    "best_distance": 0.419,
+    "from_cache": false,
+    "status": "ok",
+    "answer": "Under Indian patent law, traditional knowledge is not patentable because an invention that is, in effect, traditional knowledge is not considered an invention [1], [3]. The law also excludes any creation that is an aggregation or duplication of known properties of traditionally known components [1]. Additionally, a patent can be opposed if the claimed invention is anticipated by knowledge, oral or otherwise, available within any local or indigenous community in India or elsewhere [5]. A patent can also be opposed or revoked if the subject of any claim is not patentable under the Act [4], [7]. Furthermore, the law places restrictions on sharing or transferring research results on traditional knowledge associated with Indian biological resources without approval from the National Biodiversity Authority [2]. Please note that this is general information and does not constitute legal advice.",
+    "model": "gemini-flash-latest"
+  },
+  "India|what are not inventions under the patents act?": {
+    "sources": [
+      {
+        "n": 1,
+        "title": "The Patents Act 1970",
+        "section": "83",
+        "page": 43,
+        "excerpt": "The Patents Act 1970, Section 83 (General principles applicable to working of patented inventions .). (f) that the patent right is not abused by the patentee or person deriving title or interest on patent from the patentee, and the patentee or a person deriving title or interest on patent from the patentee does not resort to practices which unreasonably restrain trade or adversely affect the international transfer of technology; and (g) that patents are granted to make the benefit of the patented invention available at reasonably affordable prices to the public."
+      },
+      {
+        "n": 2,
+        "title": "The Patents Act 1970",
+        "section": "83",
+        "page": 43,
+        "excerpt": "The Patents Act 1970, Section 83 (General principles applicable to working of patented inventions .). 83. General principles applicable to working of patented inventions .—Without prejudice to the other provisions contained in this Act, in exercising the powers conferred by this Chapter, regard shall be had to the following general considerations, namely:— (a) that patents are granted to encourage inventions and to secure that the inventions are worked in India on a commercial scale and to the fullest extent that is reasonably practicable without undue delay; (b) that they are not granted mere"
+      },
+      {
+        "n": 3,
+        "title": "The Patents Act 1970",
+        "section": "2",
+        "page": 9,
+        "excerpt": "The Patents Act 1970, Section 2 (Definitions and interpretation.). not include either the first importer of an invention into India, or a person to whom an invention is first communicated from outside India. (2) In this Act, unless the context otherwise requires, any reference— (a) to the Controller shall be construed as including a reference to any officer discharging the functions of the Controller in pursuance of section 73; (b) to the patent office shall be construed as including a reference to any branch office of the patent office. CHAPTER II INVENTIONS NOT PATENTABLE"
+      },
+      {
+        "n": 4,
+        "title": "The Patents Act 1970",
+        "section": "4",
+        "page": 12,
+        "excerpt": "The Patents Act 1970, Section 4 (Inventions relating to atomic energy not patentable .). 4. Inventions relating to atomic energy not patentable .—No patent shall be granted in respect of an invention relating to atomic energy falling within sub -section (1) of section 20 of the Atomic Energy Act, 1962 (33 of 1962). 5. [Inventions where only methods or processes of manufacture patentable .] Omitted by the Patents (Amendment) Act, 2005 (15 of 2005), s. 4 (w.e.f. 1-1-2005). CHAPTER III APPLICATIONS FOR PATENTS"
+      },
+      {
+        "n": 5,
+        "title": "The Patents Act 1970",
+        "section": "118",
+        "page": 56,
+        "excerpt": "The Patents Act 1970, Section 118 (Contravention of Secrecy provisions relating to certain inventions. ). contained in this section shall not apply.] 119. [Falsification of entries in register, etc .] Omitted by the Jan Vishwas (Amendment of Provision) Act, 2026 (8 of 2026), s. 2 and Sch. (w.e.f. 1-6-2026). 57"
+      },
+      {
+        "n": 6,
+        "title": "The Patents Act 1970",
+        "section": "25",
+        "page": 22,
+        "excerpt": "The Patents Act 1970, Section 25 (Opposition to the patent.). of the complete specification is not an invention within the meaning of this Act, or is not patentable under this Act; (g) that the complete specification does not sufficiently and clearly describe the invention or the method by which it is to be performed; (h) that the applicant has failed to disclose to the Controller the information required by section 8 or has furnished the information which in any material particular was false to his knowledge; (i) that in the case of a convention application, the application was not made withi"
+      },
+      {
+        "n": 7,
+        "title": "The Patents Act 1970",
+        "section": "100",
+        "page": 49,
+        "excerpt": "The Patents Act 1970, Section 100 (Power of Central Government to use inventions for purposes of Government.). the Government or a Government undertaking, otherwise than in consequence of the communication of the invention directly or indirectly by the patentee or by a person from whom he derives title, any use of the invention by the Central Government or any person authorised in writing by it for the purposes of Government may be made free of any royalty or other remuneration to the patentee. (3) If and so far as the invention has not been so recorded or tried or tested as aforesaid, any use"
+      },
+      {
+        "n": 8,
+        "title": "The Patents Act 1970",
+        "section": "83",
+        "page": 43,
+        "excerpt": "The Patents Act 1970, Section 83 (General principles applicable to working of patented inventions .). rights contribute to the promotion of technological innovation and to the transfer and dissemination of technology, to the mutual advantage of producers and users of technological knowledge and in a manner conducive to social and economic welfare, and to a balance of rights and obligations; (d) that patents granted do not impede protection of public health and nutrition and should act as instrument to promote public interest specially in sectors of vital importance for socio -economic and tech"
+      }
+    ],
+    "confidence": "High",
+    "best_distance": 0.237,
+    "from_cache": false,
+    "status": "ok",
+    "answer": "The provided sources do not contain a full definition or list detailing what are not inventions under the Patents Act. The excerpts only state that patents cannot be granted for inventions relating to atomic energy under the Atomic Energy Act [4]. The text also indicates that certain definitions do not include a person who is the first importer of an invention into India or a person to whom an invention is first communicated from outside India [3]. In addition, a patent may be opposed on the ground that the subject of a claim is not an invention within the meaning of the Act or is not patentable [6]. Because the provided sources do not contain the complete answer, we recommend consulting a qualified IP professional. This explanation is provided as general information and does not constitute legal advice.",
+    "model": "gemini-flash-latest"
+  },
+  "India|how do i register a brand name?": {
+    "sources": [
+      {
+        "n": 1,
+        "title": "The Trade Marks Act 1999",
+        "section": "35",
+        "page": 23,
+        "excerpt": "The Trade Marks Act 1999, Section 35 (Saving for use of name, address or de scription of goods or services .). 35. Saving for use of name, address or de scription of goods or services .—Nothing in this Act shall entitle the proprietor or a registered user of a registered trade mark to interfere with any bona fide use by a person of his own name or that of his place of business, or of the name, or of the name of the place of business, of any of his predecessors in business, or the use by any person of any bona fide description of the character or quality of his goods or services."
+      },
+      {
+        "n": 2,
+        "title": "The Trade Marks Act 1999",
+        "section": "58",
+        "page": 32,
+        "excerpt": "The Trade Marks Act 1999, Section 58 (Correction of register .). mark is registered, and may make any consequential amendment or alteration in the certificate of registration, and for that purpose, may require the certificate of registration to be produced to him. (2) The Registrar may, on application made in the prescribed manner by a registered user of a trade mark, and after notice to the registered proprietor, correct any error, or enter any change, in the name, address or description of the registered user."
+      },
+      {
+        "n": 3,
+        "title": "The Trade Marks Act 1999",
+        "section": "2",
+        "page": 8,
+        "excerpt": "The Trade Marks Act 1999, Section 2 (Definitions and interpretation.). trade mark shall not prevent such trade description being a false trade description within the meaning of this Act; (j) “goods” means anything which is the subject of trade or manufacture; 1* * * * * (l) “limitations” (with its grammatical variations) means any limitation of the exclusive right to the use of a trade mark given by the registration of a person as proprietor thereof, including limitations of that right as to mode or area of use within India or outside India; (m) “mark” includes a device, brand, heading, label,"
+      },
+      {
+        "n": 4,
+        "title": "The Trade Marks Act 1999",
+        "section": "16",
+        "page": 16,
+        "excerpt": "The Trade Marks Act 1999, Section 16 (Registration of trade m arks as associated trade marks .). in one registration shall be deemed to be, and shall be registered as, associated trade marks. (5) On application made in the prescribed manner by the registered proprietor of two or more trade marks registered as associated trade marks, the Registrar may dissolve the association as respects any of them if he is satisfied that there would be no likelihood of deception or confusion being caused if that trade mark were used by any other person in relation to any of the goods or services or both in re"
+      },
+      {
+        "n": 5,
+        "title": "The Trade Marks Act 1999",
+        "section": "46",
+        "page": 28,
+        "excerpt": "The Trade Marks Act 1999, Section 46 (Proposed use of trade mar k by company to be formed, etc .). registered in the name of an applicant who, relies on intention to assign the trade mark to a company, then, unless within such period as may be prescribed or within such further period not exceeding six months as the Registrar may, on application being made to him in the prescribed manner, allow, the company has been registered as the proprietor of the trade mark in respect of those goods or services, the registration shall cease to have effect in respect thereof at the expiration of that period"
+      },
+      {
+        "n": 6,
+        "title": "The Trade Marks Act 1999",
+        "section": "16",
+        "page": 16,
+        "excerpt": "The Trade Marks Act 1999, Section 16 (Registration of trade m arks as associated trade marks .). Registrar may, at any time, require that the trade marks shall be entered on the register as associated trade marks. (2) Where there is an identity or near resemblance of marks that are registered, or are the subject of applications for registration in the name of the same proprietor, in respect of goods and in respect of services which are associated with those goods or goods of that description and with those services or services of that description, sub-section (1) shall apply as it applies as w"
+      },
+      {
+        "n": 7,
+        "title": "The Geographical Indications of Goods Act 1999",
+        "section": "28",
+        "page": 15,
+        "excerpt": "The Geographical Indications of Goods Act 1999, Section 28 (Correction of register. ). 28. Correction of register. —The Registrar may, on application made in the prescribed manner by the registered proprietor or the authorised user,— 16 (a) correct any error in the name, address or description of the registered proprietor or the authorised user, as the case may be, of a geographical indication, or any other entry relating to the geographical indication on the register; (b) enter any change in the name, address or description of the association of persons or of producers or any ogranisation or "
+      },
+      {
+        "n": 8,
+        "title": "The Trade Marks Act 1999",
+        "section": "146",
+        "page": 49,
+        "excerpt": "The Trade Marks Act 1999, Section 146 (Marks registered by an agent or representative without authority .). 146. Marks registered by an agent or representative without authority .—If an agent or a representative of the proprietor of a registered trade mark, without authority uses or attempts to register or registers the mark in his own name, the proprietor shall be entitled to oppose the registration applied for or secure its cancellation or rectification of the register so as to bring him as the registered proprietor of the said mark by assignment in his favour: Provided that such action shal"
+      }
+    ],
+    "confidence": "Low",
+    "best_distance": 0.635,
+    "from_cache": false,
+    "status": "ok",
+    "answer": "Based on the provided sources, the text does not contain information on how to register a brand name or trade mark. Please consult a qualified IP professional. This is general information and does not give legal advice.",
+    "model": "gemini-flash-lite-latest"
+  },
+  "India|what is a geographical indication?": {
+    "sources": [
+      {
+        "n": 1,
+        "title": "The Geographical Indications of Goods Act 1999",
+        "section": "5",
+        "page": 8,
+        "excerpt": "The Geographical Indications of Goods Act 1999, Section 5 (Geographical Indications Registry and office s thereof.). the territorial limits within which an office of the Geographical Indications Registry may exercise its functions. (4) There shall be a seal of the Geographical Indications Registry."
+      },
+      {
+        "n": 2,
+        "title": "The Geographical Indications of Goods Act 1999",
+        "section": "43",
+        "page": 20,
+        "excerpt": "The Geographical Indications of Goods Act 1999, Section 43 ([Penalty for improperly describing a place of business as connected with the Geo graphical Indicatio). 43. [Penalty for improperly describing a place of business as connected with the Geo graphical Indications Registry.]— Omitted by The Jan Vishwas (amendment of Provisions) Act, 2023 (18 of 2023), s. 2 and Schedule (w.e.f. 1-8-2024)."
+      },
+      {
+        "n": 3,
+        "title": "The Geographical Indications of Goods Act 1999",
+        "section": "42",
+        "page": 19,
+        "excerpt": "The Geographical Indications of Goods Act 1999, Section 42 (Penalty for falsely representing a geographical indication as registered .). in fact in force; or (b) where that other expression, symbol or sign is of itself such as to indicate that the reference is to such registration as is mentioned in clause (a); or (c) where that word is used in relation to a geographical indication registered under the law of a country outside India and in relation solely to goods to be exported to that country for use in that country."
+      },
+      {
+        "n": 4,
+        "title": "The Geographical Indications of Goods Act 1999",
+        "section": "85",
+        "page": 28,
+        "excerpt": "The Geographical Indications of Goods Act 1999, Section 85 (Provision as to reciprocity. ). may be, shall be entitled— (a) to apply for the registration of, or be registered as the proprietor of geographical indication; (b) to apply for registration or be registered as an authorised user of a geographical indication."
+      },
+      {
+        "n": 5,
+        "title": "The Geographical Indications of Goods Act 1999",
+        "section": "25",
+        "page": 14,
+        "excerpt": "The Geographical Indications of Goods Act 1999, Section 25 (Prohibition of registration of geographical indication as trade mark .). such geographical indications in the trade mark for such goods, is of such a nature as to confuse or mislead the persons as to the true place of origin of such goods or class or classes of goods; (b) contains or consists of a geographical indication identifying goods or class or classes of goods notified under sub-section (2) of section 22. 15"
+      },
+      {
+        "n": 6,
+        "title": "The Geographical Indications of Goods Act 1999",
+        "section": "82",
+        "page": 28,
+        "excerpt": "The Geographical Indications of Goods Act 1999, Section 82 (Declarations as to title of geographical indication not registera ble under the Registration Act, 19). 82. Declarations as to title of geographical indication not registera ble under the Registration Act, 1908.—Notwithstanding anything contained in the Registration Act, 1908 (16 of 1908) , no document declaring or purporting to declare any title of a person to a geographical indication other than a registered geographical indication shall be registered under that Act."
+      },
+      {
+        "n": 7,
+        "title": "The Geographical Indications of Goods Act 1999",
+        "section": "77",
+        "page": 27,
+        "excerpt": "The Geographical Indications of Goods Act 1999, Section 77 (Indexes.). 77. Indexes.—There shall be kept under the directions and supervision of the Registrar,— (a) an index of registered geographical indications, (b) an index of geographical indications in respect of which applications for registration are pending, (c) an index of the names of the proprietors of registered geographical indications, and (d) an index of the names of authorised users."
+      },
+      {
+        "n": 8,
+        "title": "The Geographical Indications of Goods Act 1999",
+        "section": "84",
+        "page": 28,
+        "excerpt": "The Geographical Indications of Goods Act 1999, Section 84 (Special provisions relating to applications for registration from citizens of convention countries.). the purposes of this Act. (2) Nothing contained in this Act or the Trade Marks Act, 1999 (47 of 1999) shall prevent a continued and similar use of geographical indication relating to a country or a country which is a member of a group of countries or union of countries or any Inter -Governmental Organisations, as the case may be, notified under sub-section (1) identifying wines or spirits in connection with goods by any citizen or dom"
+      }
+    ],
+    "confidence": "High",
+    "best_distance": 0.31,
+    "from_cache": false,
+    "status": "ok",
+    "answer": "The provided sources do not contain a definition or complete explanation of what a geographical indication is. The excerpts only briefly mention that a geographical indication identifies goods or classes of goods and relates to the true place of origin of those goods [5]. The rest of the provided materials focus on procedural and administrative rules, such as the establishment and seal of the Geographical Indications Registry [1]. They also require the Registrar to keep indexes of registered geographical indications, pending applications, proprietors, and authorised users [7]. In addition, the provisions note that a trade mark cannot be registered if it contains a geographical indication that confuses or misleads people regarding the origin of goods [5]. Because the provided sources do not contain the necessary information to answer what a geographical indication is, it is recommended that you consult a qualified IP professional for proper guidance.",
+    "model": "gemini-flash-latest"
+  },
+  "India|can i get a patent for an ayurvedic herbal formulation?": {
+    "sources": [
+      {
+        "n": 1,
+        "title": "The Patents Act 1970",
+        "section": "92A",
+        "page": 48,
+        "excerpt": "The Patents Act 1970, Section 92A (Compulsory licence for export of patented pharmaceutical products in certain exceptional circumstanc). 1[92A. Compulsory licence for export of patented pharmaceutical products in certain exceptional circumstances.—(1) Compulsory licence shall be available for manufacture and export of patented pharmaceutical products to any country having insufficient or no manufacturing capacity in the pharmaceutical sector for the concerned product to address public health problems, provided compulsory licence has been granted by such country or such country has, by notific"
+      },
+      {
+        "n": 2,
+        "title": "The Patents Act 1970",
+        "section": "100",
+        "page": 49,
+        "excerpt": "The Patents Act 1970, Section 100 (Power of Central Government to use inventions for purposes of Government.). taking into account the economic value of the use of the patent.] (4) The authorisation by the Central Government in respect of an invention may be given under this section, either before or after the patent is granted and either before or after the acts in respect of which such authorisation is given or done, and may be given to any person, whether or not he is authorised directly or indirectly by the applicant or the patentee to make, use, exercise or vend the invention or import th"
+      },
+      {
+        "n": 3,
+        "title": "The Patents Act 1970",
+        "section": "3",
+        "page": 11,
+        "excerpt": "The Patents Act 1970, Section 3 (What are not inventions .). same substance, unless they differ significantly in properties with regard to efficacy;] 12 (e) a substance obtained by a mere admixture resulting only in the aggregation of the properties of the components thereof or a process for producing such substance; (f) the mere arrangement or re -arrangement or duplication of known devices each functioning independently of one another in a known way; 1* * * * * (h) a method of agriculture or horticulture; (i) any process for the medicinal, surgical, curative, prophylactic 2[diagnostic, thera"
+      },
+      {
+        "n": 4,
+        "title": "The Patents Act 1970",
+        "section": "47",
+        "page": 30,
+        "excerpt": "The Patents Act 1970, Section 47 (Grant of patents to be subject to certain conditions.). of its own use; (3) any machine, apparatus or other article in respect of which the patent is granted or any article made by the use of the process in respect of which the patent is granted, may be made or used, and any process in respect of which the patent is granted may be used, by any person, for the purpose merely of experiment or research including the imparting of instructions to pupils; and (4) in the case of a patent in respect of any medicine or drug, the medicine or drug may be imported by the "
+      },
+      {
+        "n": 5,
+        "title": "The Patents Act 1970",
+        "section": "25",
+        "page": 22,
+        "excerpt": "The Patents Act 1970, Section 25 (Opposition to the patent.). for protection for the invention made in a convention country by the applicant or a person from whom he derives title; 1. Chapter IVA omitted by Act 15 of 2005, s. 21 (w.e.f. 1-1-2005). 23 (j) that the complete specification does not disclose or wrongly mentions the source or geographical origin of biological material used for the invention; (k) that the invention so far as claimed in any claim of the complete specification is anticipated having regard to the knowledge, oral or otherwise, available within any local or indigenous com"
+      },
+      {
+        "n": 6,
+        "title": "The Patents Act 1970",
+        "section": "120",
+        "page": 57,
+        "excerpt": "The Patents Act 1970, Section 120 (Unauthorised claim of patent rights.). expressing or implying that an article is patented or that a patent has been applied for shall be deemed to refer to a patent in force in India, or to a pending application for a patent in India, as the case may be, unless there is an accompanying indication that the patent has been obtained or applied for in any country outside India."
+      },
+      {
+        "n": 7,
+        "title": "The Patents Act 1970",
+        "section": "104A",
+        "page": 52,
+        "excerpt": "The Patents Act 1970, Section 104A (Burden of proof in case of suits concerning infringement. ). 1[104A. Burden of proof in case of suits concerning infringement. —(1) In any suit for infringement of a patent, where the subject matter of patent is a process for obtaining a product, the court may direct the defendant to prove that the process used by him to obtain the product, identical to the product of the patented process, is different from the patented process if,— (a) the subject matter of the patent is a process for obtaining a new product; or (b) there is a substantial likelihood that th"
+      },
+      {
+        "n": 8,
+        "title": "The Patents Act 1970",
+        "section": "11A",
+        "page": 16,
+        "excerpt": "The Patents Act 1970, Section 11A (Publication of applications .). number of application, name and address of the applicant identifying the application and an abstract. (6) Upon publication of an application for a patent under this section— (a) the depository institution shall make the biological material men tioned in the specification available to the public; (b) the patent office may, on payment of such fee as may be prescribed, make the specification and drawings, if any, of such application available to the public. 2[(7) On and from the date of publication of the application for patent an"
+      }
+    ],
+    "confidence": "Medium",
+    "best_distance": 0.547,
+    "from_cache": false,
+    "status": "ok",
+    "answer": "Based on the provided sources, the sources do not contain the answer to whether you can get a patent for an Ayurvedic herbal formulation. Therefore, please consult a qualified IP professional. This is general information and does not constitute legal advice.",
+    "model": "gemini-flash-lite-latest"
+  },
+  "India|do i need permission to use a medicinal plant commercially?": {
+    "sources": [
+      {
+        "n": 1,
+        "title": "The Biological Diversity Act 2002",
+        "section": "40",
+        "page": 18,
+        "excerpt": "The Biological Diversity Act 2002, Section 40 (Provisions of this Act not to apply in certain cases.  ). 2[40. Provisions of this Act not to apply in certain cases. —Notwithstanding anything contained in this Act, the Central Government may, in consultation with the National Biodiversity Authority, by notification in the Offic ial Gazette, declare that all or any of the provisions of this Act shall not apply to biological resources when normally traded as commodities or to the items derived from them, including agricultural wastes, as notified and cultivated medicinal plants and their products"
+      },
+      {
+        "n": 2,
+        "title": "The Biological Diversity Act 2002",
+        "section": "7",
+        "page": 7,
+        "excerpt": "The Biological Diversity Act 2002, Section 7 (Prior intimation to State Biodiversity Board for accessing biological resource for certain purposes.). 3[7. Prior intimation to State Biodiversity Board for accessing biological resource for certain purposes.— (1) No person, other than the person covered under sub -section (2) of section 3, shall access any biological resource and its associated knowledge for comme rcial utilisation, without giving prior intimation to the concerned State Biodiversity Board, but such access shall be subject to the provisions of clause (b) of section 23 and sub-secti"
+      },
+      {
+        "n": 3,
+        "title": "The Biological Diversity Act 2002",
+        "section": "7",
+        "page": 7,
+        "excerpt": "The Biological Diversity Act 2002, Section 7 (Prior intimation to State Biodiversity Board for accessing biological resource for certain purposes.). the area, including growers and cultivators of biodiversity and to vaids, hakims and registered AYUSH practitioners only who h ave been practicing indigenous medicines, including Indian systems of medicine as profession for sustenance and livelihood. 8 (2) In the case of cultivated medicinal plants, the exemption under sub -section (1) shall be available only if a certificate of origin is obtained from the Biodiversity Management Committee in such"
+      },
+      {
+        "n": 4,
+        "title": "The Biological Diversity Act 2002",
+        "section": "6",
+        "page": 7,
+        "excerpt": "The Biological Diversity Act 2002, Section 6 (Application for intellectual property rights not to be made without  approval of National Biodiversi). outside India, or traditional knowledge associated thereto, shall obtain prior approval of the National Biodiversity Authority at the time of commercialisation.] (2) The National Biodiversity Authority may, while granting the approval under this section, impose benefit sharing fee or royalty or both or impose conditions including the sharing of financial benefits arising out of the commercial utilisation of such rights. (3) The provisions of this "
+      },
+      {
+        "n": 5,
+        "title": "The Patents Act 1970",
+        "section": "3",
+        "page": 11,
+        "excerpt": "The Patents Act 1970, Section 3 (What are not inventions .). same substance, unless they differ significantly in properties with regard to efficacy;] 12 (e) a substance obtained by a mere admixture resulting only in the aggregation of the properties of the components thereof or a process for producing such substance; (f) the mere arrangement or re -arrangement or duplication of known devices each functioning independently of one another in a known way; 1* * * * * (h) a method of agriculture or horticulture; (i) any process for the medicinal, surgical, curative, prophylactic 2[diagnostic, thera"
+      },
+      {
+        "n": 6,
+        "title": "The Biological Diversity Act 2002",
+        "section": "59A",
+        "page": 23,
+        "excerpt": "The Biological Diversity Act 2002, Section 59A (Act not to apply to certain persons.). 1[59A. Act not to apply to certain persons.—The provision of this Act shall not apply to any person who has been given any approval or granted any right under any law relating to protection of plant varieties enacted by Parl iament to the extent that such approvals or rights given under that Act does not require similar approval under this Act.]"
+      },
+      {
+        "n": 7,
+        "title": "The Patents Act 1970",
+        "section": "92A",
+        "page": 48,
+        "excerpt": "The Patents Act 1970, Section 92A (Compulsory licence for export of patented pharmaceutical products in certain exceptional circumstanc). product to such country under such terms and conditions as may be specified and published by him. (3) The provisions of sub -sections ( 1) and ( 2) shall be without prejudice to the extent to which pharmaceutical products produced under a compulsory licence can be exported under any other provision of this Act. Explanation.—For the purposes of this section, “pharmaceutical products ” means any patented product, or product manufactured through a patented proc"
+      },
+      {
+        "n": 8,
+        "title": "The Patents Act 1970",
+        "section": "92A",
+        "page": 48,
+        "excerpt": "The Patents Act 1970, Section 92A (Compulsory licence for export of patented pharmaceutical products in certain exceptional circumstanc). 1[92A. Compulsory licence for export of patented pharmaceutical products in certain exceptional circumstances.—(1) Compulsory licence shall be available for manufacture and export of patented pharmaceutical products to any country having insufficient or no manufacturing capacity in the pharmaceutical sector for the concerned product to address public health problems, provided compulsory licence has been granted by such country or such country has, by notific"
+      }
+    ],
+    "confidence": "Medium",
+    "best_distance": 0.527,
+    "from_cache": false,
+    "status": "ok",
+    "answer": "Under Indian law, certain persons such as vaids, hakims, registered AYUSH practitioners, local communities, and growers do not need to give prior intimation to the State Biodiversity Board for accessing cultivated medicinal plants and their products for their profession, sustenance, and livelihood [2, 3]. However, for cultivated medicinal plants, this exemption requires obtaining a certificate of origin from the Biodiversity Management Committee [3]. Additionally, the Central Government may declare that the provisions of the Biological Diversity Act do not apply to normally traded commodities, notified items, and cultivated medicinal plants and their products for entities covered under section 7 [1]. The provided sources do not contain a complete answer regarding all commercial use scenarios, and it is recommended that you consult a qualified IP professional. Please note that this is general information and not legal advice.",
+    "model": "gemini-flash-lite-latest"
+  }
+}
